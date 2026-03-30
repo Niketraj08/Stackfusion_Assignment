@@ -11,6 +11,7 @@ The system was designed as a multi-service architecture where **Django** handles
 
 ## 2. Key Fixes Implemented
 
+
 ### Backend-Django (Port 8000)
 - **Database Alignment:** Updated `settings.py` to use `psycopg2` with the `parking_db` PostgreSQL instance.
 - **CORS Mitigation:** Installed and configured `django-cors-headers` middleware to permit frontend requests from `localhost:3000`.
